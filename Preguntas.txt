@@ -1,0 +1,51 @@
+Parte 1: 
+ ¿Por qué creen que es el mal rendimiento de este modelo?
+
+    El bajo rendimiento del modelo CNN para la identificación de imágenes puede ser causado por un conjunto de datos pequeño o poco representativo, 
+    el sobreajuste al conjunto de entrenamiento, una arquitectura poco adecuada, problemas de normalización de datos, desbalanceo de clases y errores en el etiquetado. 
+    Para mejorar el rendimiento, es necesario ajustar la arquitectura, aumentar el tamaño del conjunto de datos, normalizar correctamente las imágenes y utilizar 
+    técnicas para evitar el sobreajuste.
+
+ ¿Qué pueden hacer para mejorarlo?
+
+    Para mejorar mi modelo de CNN para identificación de imágenes considero lo siguiente:
+
+    Aumentar el tamaño del conjunto de datos.
+    Preprocesar las imágenes adecuadamente.
+    Experimentar con diferentes arquitecturas.
+    Aplicar técnicas de regularización.
+    Evaluar de manera adecuada.
+    Abordar el desbalanceo de clases.
+    Verificar las etiquetas del conjunto de entrenamiento.
+    Considerar modelos pre-entrenados.
+
+¿Cuáles son las razones para que el modelo sea tan lento?
+
+    El modelo puede ser lento debido a:
+
+    Tamaño y complejidad del modelo.
+    Gran tamaño del conjunto de datos.
+    Limitaciones de hardware y recursos.
+    Operaciones computacionalmente intensivas.
+    Hiperparámetros inadecuados.
+    Uso de modelos pre-entrenados innecesariamente grandes.
+
+Parte 2: 
+
+¿Qué haría para mejorar el rendimiento del modelo?
+
+    Para mejorar el rendimiento del modelo CNN en PyTorch considero realizar lo siguiente:
+
+    Optimizar la arquitectura y hiperparámetros.
+    Aumentar el tamaño del conjunto de datos.
+    Preprocesar y normalizar las imágenes adecuadamente.
+    Aplicar técnicas de regularización para evitar el sobreajuste.
+    Abordar el desbalanceo de clases.
+    Aprovechar la aceleración de hardware si es posible.
+    Considerar el uso de modelos pre-entrenados y ajuste fino.
+
+¿Qué haría para disminuir las posibilidades de overfitting?
+
+    Para disminuir el overfitting en mi modelo CNN en PyTorch, implementaría técnicas de regularización, aumentaría el tamaño del conjunto de datos con data augmentation, 
+    dividiría el conjunto de datos en entrenamiento y validación, y monitorizaría las curvas de aprendizaje para ajustar el entrenamiento. 
+    También consideraría reducir la complejidad del modelo y utilizar modelos pre-entrenados para el ajuste fino.
